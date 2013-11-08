@@ -16,9 +16,6 @@
 # Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/serrano3gxx/serrano3gxx-vendor.mk)
 
-# Common overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/serrano-common/overlay-gsm
-
 # Inherit from serrano-common
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 
