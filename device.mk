@@ -13,9 +13,6 @@
 # limitations under the License.
 #
 
-# Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/serrano3gxx/serrano3gxx-vendor.mk)
-
 # Inherit from serrano-common
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 
