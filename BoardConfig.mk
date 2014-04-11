@@ -24,7 +24,7 @@
 -include device/samsung/serrano-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := serrano3g,serrano3gxx,i9190,GT-I9190
+TARGET_OTA_ASSERT_DEVICE := serrano3g,serrano3gxx
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_3g_defconfig
