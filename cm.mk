@@ -4,7 +4,7 @@ $(call inherit-product, device/samsung/serrano3gxx/full_serrano3gxx.mk)
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Set product specific version
-PRODUCT_VERSION_DEVICE_SPECIFIC := .1
+PRODUCT_VERSION_DEVICE_SPECIFIC := .2
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
