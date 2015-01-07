@@ -28,6 +28,3 @@ TARGET_OTA_ASSERT_DEVICE := serrano3g,serrano3gxx
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_3g_defconfig
-
-# BLN
-BOARD_HAVE_GENERIC_BLN := true
